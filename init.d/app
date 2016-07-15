@@ -30,7 +30,7 @@ start() {
     then
         echo "$PROCESS_NAME is already running (pid: $pid)"
     else
-        # Start lcs
+        # Start app
         echo "Starting $PROCESS_NAME"
         /bin/su - -c "cd $APP_HOME/bin && $APP_HOME/bin/$START_SHELL" $APP_USER
     fi
