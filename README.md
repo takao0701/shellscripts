@@ -3,7 +3,7 @@
 It's the sample shell scripts
 
 ## init.d
-scripts to start, stop, restart or status your app. You just amend the following variables to get started.
+scripts to start, stop, restart or status your app. You just edit the following variables to get started.
 
 APP_USER=user<br/>
 APP_HOME="/home/user/app"<br/>
