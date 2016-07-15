@@ -1,0 +1,4 @@
+#NO.	IP		ServerName		USER	CHK_Partition	DF_WL	LA_WL	LA_TR
+1	192.168.0.1	apache1			apache	sda1		80	1	5
+2	192.168.0.2	apache2			apache	sda1		80	1	5
+3	192.168.0.3	apache3			apache	sda1		80	1	5
