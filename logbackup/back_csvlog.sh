@@ -6,7 +6,7 @@ if [ $# -eq 1 ]; then
     fi
 fi
 
-MFX_LOG=oandaCsv.log.$DATE
+MFX_LOG=dailyCsv.log.$DATE
 
 cd /home/mfx/app/logs
 tar zcvf $MFX_LOG$DATE.tar.gz $MFX_LOG
